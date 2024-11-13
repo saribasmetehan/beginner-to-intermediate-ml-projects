@@ -11,5 +11,5 @@ Bu proje, **Random Forest** algoritmasını kullanarak **emlak fiyat tahmini** y
 - **Özellikler**: Modelin doğru tahmin yapabilmesi için verinin **eksik veri çıkarılşması**,**Label Encoding** **Type Casting** gibi adımlar uygulanmıştır.
 
 ### 3. **HR Salary Estimation**
-Bu proje, **insan kaynakları** verileri kullanarak **maaş tahmini** yapmaktadır. Kullanıcılar, çalışanların **experience level**, **job title** , **employment type**, **work models**, **work years **, **employee residence**, **company location** ve **company location** özelliklerine dayalı olarak maaş tahmininde bulunabilirler.
+Bu proje, **insan kaynakları** verileri kullanarak **maaş tahmini** yapmaktadır. Kullanıcılar, çalışanların **experience level**, **job title** , **employment type**, **work models**, **work years**, **employee residence**, **company location** ve **company location** özelliklerine dayalı olarak maaş tahmininde bulunabilirler.
 - **Özellikler**: Model, **XGBRegressor** algoritmalarıyla maaş tahmini yapmaktadır.  Modelin doğru tahmin yapabilmesi için verinin **One Hot Encoding**, **Label Encoding** gibi adımlar uygulanmıştır.
