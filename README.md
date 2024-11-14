@@ -13,3 +13,7 @@ Bu proje, **Random Forest** algoritmasını kullanarak **emlak fiyat tahmini** y
 ### 3. **HR Salary Estimation**
 Bu proje, **insan kaynakları** verileri kullanarak **maaş tahmini** yapmaktadır. Kullanıcılar, çalışanların **experience level**, **job title** , **employment type**, **work models**, **work years**, **employee residence** ve **company location**  özelliklerine dayalı olarak maaş tahmininde bulunabilirler.
 - **Özellikler**: Model, **XGBRegressor** algoritmalarıyla maaş tahmini yapmaktadır.  Modelin doğru tahmin yapabilmesi için verinin **One Hot Encoding**, **Label Encoding** gibi adımlar uygulanmıştır.
+
+### 3. **Customer Segmentasyon**
+Bu proje, **Müsteri** verileri kullanarak **Gruplama** yapmaktadır. Kullanıcılar, müşterilerin **	Gender**, **Age** , **Annual Income ($)**, **Spending Score (1-100)**, **Profession**, **Work Experience** ve **Family Size**  gruplandırılmıştır.
+- **Özellikler**: Model, **KMeans** algoritmalarıyla maaş tahmini yapmaktadır.  Modelin doğru gruplandırma yapabilmesi için verinin **Min-Max Scaler**, **Label Encoding** gibi adımlar uygulanmıştır.
